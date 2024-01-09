@@ -1,0 +1,133 @@
+*{
+    font-family: Cursive;
+    border-radius: 10px;
+
+}
+.container{
+    margin: 0 5% 0 5%;
+}
+.offpage a{
+        position: absolute;
+        left: -9999px;
+        text-decoration: none;
+        font-size: 14px;        
+}
+
+.offpage a:focus{   
+    position: absolute;
+    left: 2%;
+    top: 0px;
+    border-radius: 0 0 35% 35%;
+    padding: 5px;
+    background-color: #ffff;
+}
+/* .offpage:focus{
+    position: absolute;
+    left: 0px;
+} */
+
+header{
+    background-color: #63D2FF;
+
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding-right: 5%;
+
+}
+header ul li{
+    margin: .5em;
+    font-size: 14px;
+}
+header ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+nav{
+    background-color: #78D5D7;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+nav ul li{
+    margin: 20px;
+    text-align: -webkit-center;
+    transition-duration: .25s;
+    transition-delay: .25s;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+}
+nav li:hover{
+    transform: scale(1.4);
+}
+nav li:hover img{
+    border-radius:  40%;
+}
+nav img{
+    width: 4em;
+    display: block;
+    border-radius:  25%;
+    transition-duration: .25s;
+    transition-delay: .25s;
+
+}
+#semiContent{
+    background-color: #63D2FF;
+    text-align: center;
+    padding: .5em;
+}
+#semiContent h3{
+    margin-bottom: 0;
+
+}
+#semiContent span{
+    font-size: 14px;
+    font-style: italic;
+}
+#semiContent ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#semiContent ol{
+    text-align: left;
+    margin-top: 1em;
+}
+#mainContent{
+    background-color: cadetblue;
+    text-align: center;
+    padding: .5em;
+    margin: 16px 0 ;
+}
+#mainContent figure{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 19% 19% 19% 19% 19%;
+
+}
+#mainContent img{
+    width: 95%;
+    height: 95%;
+    border-radius: 10%;
+    transition-duration: .25s;
+    transition-delay: .25s;
+}
+#mainContent img:hover{
+    transform: scale(1.2);
+    border-radius: 25%;
+}
+footer{
+    font-size: 14px;
+    text-align: center;
+    background-color: #63D2FF;
+    padding: .5em;
+}
